@@ -19,7 +19,7 @@ src/
 │   ├── game_settings.py
 │   └── window_settings.py
 ├── images/
-│   └── characters/         # Sprites de personajes
+│   └── characters/         #Imagenes de personajes
 │       ├── dart.png
 │       └── vulcano.png
 ├── memory/                 # Datos persistentes como puntajes y jugadores (Proximamente)
