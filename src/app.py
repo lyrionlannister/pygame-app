@@ -16,7 +16,10 @@ from utils.display_game_over import display_game_over
 def app():
     """Función principal que maneja la ejecución del juego."""
     pygame.init()
-    screen = pygame.display.set_mode((WindowSettings.WIDTH, WindowSettings.HEIGHT))
+
+    screen = pygame.display.set_mode(
+        (WindowSettings.WIDTH, WindowSettings.HEIGHT), pygame.SCALED | pygame.FULLSCREEN
+    )
     pygame.display.set_caption("Game Menu")
 
     characters = load_characters()
