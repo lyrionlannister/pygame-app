@@ -1,3 +1,9 @@
+# Requerimientos:
+
+    Funciones: El proyecto esta escrito en programacion funcional en su mayoría.
+    Menús: Se tiene un menú inicial para iniciar o salir del juego.
+    Enemigos: Vulcano.
+
 # 🎩 Pygame App
 
 Este es un pequeño juego hecho con [Pygame](https://www.pygame.org/) donde controlas un personaje y evitas colisiones con un enemigo que te persigue. Incluye un menú principal, detección de colisiones y sistema de puntajes.
@@ -78,7 +84,7 @@ py -B src/main.py
 ## 📸 Recursos
 
 - Imágenes de personajes en `src/images/characters/`
-- Datos persistentes en `src/memory/` (jugadores y puntuaciones) (En desarrollo)
+- Datos persistentes en `src/memory/` (jugadores y puntuaciones) (Proximamente)
 
 ## 🛠️ Requisitos
 
